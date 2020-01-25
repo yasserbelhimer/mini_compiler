@@ -1,0 +1,64 @@
+PROGRAM Test
+	VAR Prenomoi || Seif || Yass: INTEGER£
+	LET Nom INTEGER = 0£
+	VAR Tes|| Fyyy : FLOAT£
+	LET Yasser STRING="hello dddddddddddffffffffyasser "£
+	VAR C:CHAR£
+	LET Ss CHAR  = 'a'£
+	VAR Tab [100]: [INTEGER]£
+	VAR Mat [100] : [FLOAT]£
+	VAR Sss : STRING£
+BEGIN
+	//Sss = "jgdsfk"£
+	Seif = Nom £//
+	Seif = Tes+(-1)£
+	//Seif = 2*(Nom+(-1))+3+(9)£//
+	//FOR(Seif:1:Seif==0)
+		Seif =10£
+		Seif = 2*10+3+(9)£
+	END_FOR//
+	//IF(Seif <<>> 2):
+	{ 
+		IF(Seif << 2):
+		{ 
+			IF(Seif >> 2):
+			{ 		
+				IF(Tab[10] == 2):
+				{
+					IF(Seif <<= 2):
+					{ 
+						Seif = 2*10+3+(9)£
+						RETURN(Seif)£
+					}
+					ENDIF
+					Seif = 2*10+3£
+					RETURN(Seif)£
+				}
+				ELSE:
+				{
+					RETURN(9)£
+				}
+				ENDIF
+				Seif = 22+33£
+	  			RETURN(Seif)£
+			}
+			ELSE:
+			{
+				Yass = 25£
+				RETURN(Tab[Seif])£
+			}
+			ENDIF
+			Seif = 2*10+3£
+			RETURN(Seif)£
+		}
+		ENDIF
+		Seif = 22+33£
+	  	RETURN(Seif)£
+	}
+	ELSE:
+	{
+		RETURN(9)£
+	}
+	ENDIF
+	Prenomoi = 23£//
+END
